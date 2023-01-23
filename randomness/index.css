@@ -1,0 +1,18 @@
+body {
+    transition: .5s;
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    padding: 2em;
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1em;
+}
+
+.inner-container {
+    padding: 2em;
+    align-items: center;
+}
