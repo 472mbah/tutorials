@@ -47,7 +47,7 @@ function produceRandomColour () {
     red = produceRandomNumberInRange(    /*something goes here*/    )
     green = produceRandomNumberInRange(    /*something goes here*/   )
     blue = produceRandomNumberInRange(    /*something goes here*/  )
-    return `rgb(${ /*the first colour*/ }, ${ /*the second colour*/ }, ${/*the third colour*/})`
+    return `rgb(${ /*the first colour*/ }, ${ /*the second colour*/ }, ${/*the third colour*/}, 0.5)`
 }
 
 // When you give this function a html component, it will change its colour to a random one
